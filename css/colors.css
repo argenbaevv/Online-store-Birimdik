@@ -1,0 +1,15 @@
+:root{
+    --color-primary: #0A1126;
+    --color-secondary: #2abfb0;
+    --color-yellow: #DBF22E;
+    --color-yellow-secondary: #E2F26B;
+    --color-bg: #F2F2F2;
+    --color-line: rgb(215, 215, 215);
+
+
+    /* text COLOR */
+    --text-primary: #0A1126;
+    --text-white: #fff;
+    --text-grey: #8c8c8c;
+    --text-dark-grey: #3c3c3c;
+}
