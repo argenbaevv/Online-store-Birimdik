@@ -33,8 +33,8 @@
           <input type="text" class="search-input" placeholder="Поиск">
         </div>
         <div class="header-user col-lg-2 d-flex justify-content-end">
-          <div class="user-liked">1</div>
-          <div class="user-cart">2</div>
+          <div class="user-liked"><i class="fa-solid fa-cart-shopping"></i></div>
+          <div class="user-cart"><i class="fa-regular fa-heart"></i></div>
           <div class="user-avatar"></div>
         </div>
       </div>
@@ -49,7 +49,7 @@
       <div class="row">
         <!-- Main content left -->
         <div class="col-lg-3 main-content-left" >
-          <h6 class="section">Фильтр</h6>
+          <!-- <h6 class="section">Фильтр</h6> -->
           <h6 class="section-category">Категории</h6>
           <div class="row category">
             <div class="col-lg-12 pt-2 pb-2"><input type="checkbox"><span class="checkbox-name">Недвижимость</span></div>
@@ -66,11 +66,17 @@
             <div class="col-lg-6"><input type="text" class="search-input" placeholder="10000"></div>
           </div>
           <button class="button-primary w-100">Поиск</button>
+
+          <div class="promotion"></div>
         </div> 
+
 
         <!-- Main content right -->
 
         <div class="col-lg-9 main-content-right">
+
+          <div class="slider"></div>
+
           <span class="search-data-text">Данные по запросу <strong>"Техника"</strong></span>
           <div class="d-flex justify-content-start mt-3">
             <div class="me-4"><span class="sort-text">Сортировать</span></div>
@@ -87,11 +93,11 @@
                 <div class="product">
                   <div class="product-img"></div>
                   <div class="product-name">Name</div>
-                  <div class="product-review">
-                    <div class="product-stars"></div>
-                    <div class="product-buyers">1230</div>
+                  <div class="product-review d-flex justify-content-between">
+                    <div class="product-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div>
+                    <div class="product-buyers"><i class="fa-solid fa-eye"></i> 1230</div>
                   </div>
-                  <div class="product-address">Москва</div>
+                  <div class="product-address"><i class="fa-solid fa-train-subway"></i> <a href="#">Кузнецский Мост</a></div>
                   <div class="product-price d-flex justify-content-between">
                     <div><span></span>1200 <span>руб</span></div>
                     <button class="cart button-mini-grey">В корзину</button>
@@ -103,11 +109,11 @@
                 <div class="product">
                   <div class="product-img"></div>
                   <div class="product-name">Name</div>
-                  <div class="product-review">
-                    <div class="product-stars"></div>
-                    <div class="product-buyers">1230</div>
+                  <div class="product-review d-flex justify-content-between">
+                    <div class="product-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div>
+                    <div class="product-buyers"><i class="fa-solid fa-eye"></i> 1230</div>
                   </div>
-                  <div class="product-address">Москва</div>
+                  <div class="product-address"><i class="fa-solid fa-train-subway"></i> <a href="#">Кузнецский Мост</a></div>
                   <div class="product-price d-flex justify-content-between">
                     <div><span></span>1200 <span>руб</span></div>
                     <button class="cart button-mini-grey">В корзину</button>
@@ -119,11 +125,11 @@
                 <div class="product">
                   <div class="product-img"></div>
                   <div class="product-name">Name</div>
-                  <div class="product-review">
-                    <div class="product-stars"></div>
-                    <div class="product-buyers">1230</div>
+                  <div class="product-review d-flex justify-content-between">
+                    <div class="product-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div>
+                    <div class="product-buyers"><i class="fa-solid fa-eye"></i> 1230</div>
                   </div>
-                  <div class="product-address">Москва</div>
+                  <div class="product-address"><i class="fa-solid fa-train-subway"></i> <a href="#">Кузнецский Мост</a></div>
                   <div class="product-price d-flex justify-content-between">
                     <div><span></span>1200 <span>руб</span></div>
                     <button class="cart button-mini-grey">В корзину</button>
@@ -135,11 +141,11 @@
                 <div class="product">
                   <div class="product-img"></div>
                   <div class="product-name">Name</div>
-                  <div class="product-review">
-                    <div class="product-stars"></div>
-                    <div class="product-buyers">1230</div>
+                  <div class="product-review d-flex justify-content-between">
+                    <div class="product-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div>
+                    <div class="product-buyers"><i class="fa-solid fa-eye"></i> 1230</div>
                   </div>
-                  <div class="product-address">Москва</div>
+                  <div class="product-address"><i class="fa-solid fa-train-subway"></i> <a href="#">Кузнецский Мост</a></div>
                   <div class="product-price d-flex justify-content-between">
                     <div><span></span>1200 <span>руб</span></div>
                     <button class="cart button-mini-grey">В корзину</button>
@@ -151,11 +157,11 @@
                 <div class="product">
                   <div class="product-img"></div>
                   <div class="product-name">Name</div>
-                  <div class="product-review">
-                    <div class="product-stars"></div>
-                    <div class="product-buyers">1230</div>
+                  <div class="product-review d-flex justify-content-between">
+                    <div class="product-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div>
+                    <div class="product-buyers"><i class="fa-solid fa-eye"></i> 1230</div>
                   </div>
-                  <div class="product-address">Москва</div>
+                  <div class="product-address"><i class="fa-solid fa-train-subway"></i> <a href="#">Кузнецский Мост</a></div>
                   <div class="product-price d-flex justify-content-between">
                     <div><span></span>1200 <span>руб</span></div>
                     <button class="cart button-mini-grey">В корзину</button>
@@ -167,11 +173,11 @@
                 <div class="product">
                   <div class="product-img"></div>
                   <div class="product-name">Name</div>
-                  <div class="product-review">
-                    <div class="product-stars"></div>
-                    <div class="product-buyers">1230</div>
+                  <div class="product-review d-flex justify-content-between">
+                    <div class="product-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div>
+                    <div class="product-buyers"><i class="fa-solid fa-eye"></i> 1230</div>
                   </div>
-                  <div class="product-address">Москва</div>
+                  <div class="product-address"><i class="fa-solid fa-train-subway"></i> <a href="#">Кузнецский Мост</a></div>
                   <div class="product-price d-flex justify-content-between">
                     <div><span></span>1200 <span>руб</span></div>
                     <button class="cart button-mini-grey">В корзину</button>
@@ -183,11 +189,11 @@
                 <div class="product">
                   <div class="product-img"></div>
                   <div class="product-name">Name</div>
-                  <div class="product-review">
-                    <div class="product-stars"></div>
-                    <div class="product-buyers">1230</div>
+                  <div class="product-review d-flex justify-content-between">
+                    <div class="product-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div>
+                    <div class="product-buyers"><i class="fa-solid fa-eye"></i> 1230</div>
                   </div>
-                  <div class="product-address">Москва</div>
+                  <div class="product-address"><i class="fa-solid fa-train-subway"></i> <a href="#">Кузнецский Мост</a></div>
                   <div class="product-price d-flex justify-content-between">
                     <div><span></span>1200 <span>руб</span></div>
                     <button class="cart button-mini-grey">В корзину</button>
@@ -199,17 +205,19 @@
                 <div class="product">
                   <div class="product-img"></div>
                   <div class="product-name">Name</div>
-                  <div class="product-review">
-                    <div class="product-stars"></div>
-                    <div class="product-buyers">1230</div>
+                  <div class="product-review d-flex justify-content-between">
+                    <div class="product-stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i></div>
+                    <div class="product-buyers"><i class="fa-solid fa-eye"></i> 1230</div>
                   </div>
-                  <div class="product-address">Москва</div>
+                  <div class="product-address"><i class="fa-solid fa-train-subway"></i> <a href="#">Кузнецский Мост</a></div>
                   <div class="product-price d-flex justify-content-between">
                     <div><span></span>1200 <span>руб</span></div>
                     <button class="cart button-mini-grey">В корзину</button>
                   </div>
                 </div>
               </div>
+
+              
 
               
 
@@ -218,14 +226,48 @@
              
 
               
-
-          
             </div>
           </div>
         </div>
       </div>
     </div>
   </div>
+
+  <footer>
+    <div class="container">
+      <div class="footer">
+        <div class="row d-flex" >
+          <div class="col-lg-3">
+            <ul>
+              <lh>Меню</lh>
+              <li>Главная</li>
+              <li>Главная</li>
+              <li>Главная</li>
+              <li>Главная</li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <ul>
+              <lh>Категории</lh>
+              <li>Главная</li>
+              <li>Главная</li>
+              <li>Главная</li>
+              <li>Главная</li>
+            </ul>
+          </div>
+          <div class="col-lg-3">
+            <ul>
+              <lh>Меню</lh>
+              <li>Главная</li>
+              <li>Главная</li>
+              <li>Главная</li>
+              <li>Главная</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   
 
